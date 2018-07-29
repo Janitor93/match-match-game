@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Match Match Game</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 class="heading-1"><a href="index.html">Match-Match-Game</a></h1>
+            <h3><a href="#" class="result-link">Results</a></h3>
+            <div class="timer">
+                <time class="timer__time">00:00</time>
+            </div>
+        </header>
+
+        <section class="rules">
+            <div class="rules__actions">
+                <h3 class="rules__heading-3">To Play:</h3>
+                <ol class="rules__list">
+                    <li class="rules__list-element">Select two cards to try to match the pictures.</li>
+                    <li class="rules__list-element">If you match the pictures you can go again.</li>
+                    <li class="rules__list-element">If they don't match it is the computer turn them.</li>
+                    <li class="rules__list-element">The player that finds all pariis wins!</li>
+                    <li class="rules__list-element">Have Fun!</li>
+                </ol>
+            </div>
+            <div class="form">
+                <div class="form__element">
+                    <label for="first-name" class="form__label">First Name</label>
+                    <input type="text" id="first-name" class="form__input" placeholder="First name">
+                </div>
+                <div class="form__element">
+                    <label for="last-name" class="form__label">Last Name</label>
+                    <input type="text" id="last-name" class="form__input" placeholder="Last name">
+                </div>
+                <div class="form__element">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" id="email" class="form__input" placeholder="Email">
+                </div>
+                <div class="form__element">
+                    <p>Shirt Card</p>
+                    <ul class="form__shirt-list">
+                        <li class="form__shirt-element" data-shirt="plane">
+                            <i class="fas fa-plane fa-2x"></i>
+                        </li>
+                        <li class="form__shirt-element" data-shirt="subway">
+                            <i class="fas fa-subway fa-2x"></i>
+                        </li>
+                        <li class="form__shirt-element" data-shirt="car">
+                            <i class="fas fa-car fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form__element">
+                    <p>Game Difficulty</p>
+                    <ul class="form__difficulty-list">
+                        <li class="form__difficulty-element" data-difficulty="low">Low (5 x 2)</li>
+                        <li class="form__difficulty-element" data-difficulty="medium">Medium (6 x 3)</li>
+                        <li class="form__difficulty-element" data-difficulty="hight">Hight (8 x 3)</li>
+                    </ul>
+                </div>
+                <div class="new-game">
+                    <button class="new-game__btn">New Game</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="game disable">
+
+        </section>
+
+        <section class="result disable">
+            <h4 class="result__last-result"></h4>
+            <button class="result__btn">Reset all results</button>
+        </section>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

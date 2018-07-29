@@ -1,0 +1,83 @@
+.form {
+    text-align: center;
+}
+
+.form__element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__input {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.form__input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    text-align: center;
+}
+.form__input::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+.form__input:-ms-input-placeholder {
+    /* IE 10+ */
+    text-align: center;
+}
+.form__input:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+.form__shirt-list {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.form__shirt-element {
+    padding: 10px 10px;
+    border: 2px solid transparent;
+}
+
+.form__shirt-element:hover {
+    border: 2px solid #0e0ae4;
+    border-radius: 5px;
+}
+.form__shirt-element.selected {
+    border: 2px solid #0e0ae4;
+    border-radius: 5px;
+}
+
+.form__difficulty-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.form__difficulty-element {
+    padding: 10px 10px;
+    border: 2px solid transparent;
+}
+
+.form__difficulty-element:hover {
+    border: 2px solid #0e0ae4;
+    border-radius: 5px;
+}
+.form__difficulty-element.selected {
+    border: 2px solid #0e0ae4;
+    border-radius: 5px;
+}
+
+.new-game__btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}

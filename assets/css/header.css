@@ -1,0 +1,14 @@
+header {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer {
+    min-width: 150px;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+@import 'header.css';
+@import 'rules.css';
+@import 'card.css';
+@import 'form.css';
+@import  'result.css';
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background-image: url('../images/bg.png');
+    display: flex;
+    flex-direction: column;
+}
+
+.disable {
+    display: none;
+}
